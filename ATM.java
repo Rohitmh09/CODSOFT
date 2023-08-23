@@ -40,7 +40,8 @@ public class ATM extends JFrame implements ActionListener {
         setSize(500, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        bankAccount = new BankAccount(1000.0); // Initial balance is $1000
+        // Initial balance is 1000
+        bankAccount = new BankAccount(1000.0); 
         
         tf = new JTextField(10);
         pf = new JPasswordField(10);
